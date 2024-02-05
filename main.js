@@ -8,8 +8,6 @@ main.get('/', (req, res) => {
 });
 
 
-
-
 main.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
