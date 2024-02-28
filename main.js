@@ -4,6 +4,7 @@ require('dotenv').config();
 const port = 8000;
 
 main.get('/', (req, res) => {
+    console.log('Request received');
     res.send(`Hello, World! ${process.env.TITLE}`);
 });
 
